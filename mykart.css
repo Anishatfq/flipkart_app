@@ -1,0 +1,207 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: arial;
+    background-color: whitesmoke;
+}
+nav{
+   display: flex;
+    background-color:blue;
+    justify-content: center;
+    align-items: center;
+    height:8vh;
+    width:100%;
+}
+.search{
+    background-color: white;
+    padding: 8px;
+    width:400px;
+    margin: 0px 20px;
+    display: flex;
+}
+.search input{
+    width:380px;
+    border:none;
+    outline: none;
+    font-size: 14px;
+}
+.loginbtn{
+    padding: 7px 30px;
+    font-size:16px;
+    border:none;
+    color: blue;
+
+}
+a{
+    text-decoration:none;
+color: white;
+font-size: 1.4rem;
+margin-left: 10px;
+}
+#products{
+    border-bottom: 2px solid lightgray;
+    width: 100%;
+    min-height:126px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    background-color: white;
+}
+.product{
+    
+    
+    width: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+}
+.product img{
+    height: 70px;
+
+}
+.product p{
+    font-size: 14px;
+    font-weight: bold;
+    position:absolute;
+    top: 160px;
+}
+.heroimage{
+    width: auto;
+    height: auto;
+    margin: 0px 10px;
+    margin-top: 10px;
+}
+.heroimage img{
+    width:100%
+}
+.right-part img{
+    width:100%;
+    height: 100%;
+}
+.bestelectronics-container{
+    height:780px;
+   
+    display: flex;
+justify-content:space-around;
+
+}
+.left-part{
+    height:100%;
+    width:79%;
+    background-color:white;
+}
+.left-top{
+    display: flex;
+    justify-content: space-between;
+padding: 30px;
+height: 20%;
+background-color:white;
+box-sizing: border-box;
+border-bottom: 1px solid white;
+
+}
+.left-topcontent h1{
+    margin: 0;
+    font: size 1rem;
+}
+
+#left-bottomcards,#left-bottom1,#left-bottom2{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+   
+    justify-content:space-evenly;
+
+    
+    height: 95%;
+    overflow: hidden;
+    
+}
+.card{
+ 
+    width: 200px;
+    height:250px;
+    background-color: white;
+  
+    justify-content:baseline;
+    border: 1px solid lightgrey;
+   margin-left: 4px;
+   margin-right: 4px;
+   text-align: center;
+   margin-bottom: 10px;
+    
+}
+  
+.card img{
+   height: 180px;
+}
+.right-part{
+    height:100%;
+    width:19%;
+    background-color:white;
+}
+.cardname{
+margin: 1px 0;
+font-size:small;
+
+}
+.cardprice{
+
+margin:1px 0;
+font-weight: bold;
+}
+footer{
+    margin: 6px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+
+}
+.container{
+    height: 300px;
+    background-color:#666;
+    margin: auto;
+    width: 100%x;
+    display: flex;
+    justify-content:space-evenly;
+
+}
+.footer-content{
+    margin: auto;
+    padding: 5px;
+}
+.footer-content h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.bottom-bar{
+    background-color: #666;
+    text-align: center;
+    margin: 0;
+    padding:7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
